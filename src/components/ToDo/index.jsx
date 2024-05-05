@@ -4,7 +4,7 @@ import RowList from "./RowList/RowList";
 
 function ToDo() {
   return (
-    <div className="flex flex-col gap-3 w-fit h-[50%]  rounded-3xl m-auto bg-slate-500 justify-center">
+    <div className="flex flex-col gap-3 rotate-[12deg]  h-[500px] w-[500px] px-10 rounded-3xl m-auto bg-white justify-center">
       <p className="font-bold text-2xl mb-2">ToDo List</p>
       <RowList
         numberTask={"Task1"}
@@ -32,7 +32,7 @@ function ToDo() {
         backGround={"bg-red-500"}
       />
 
-      <div className="flex mt-3 w-[50%]">
+      <div className="flex mt-3 ">
         <input type="text" name="" id="" placeholder="Task name" className="w-full pl-1 outline-none"/>
         <select name="" id="" className="font-semibold text-lg">
           <option value="Hight">Hight</option>

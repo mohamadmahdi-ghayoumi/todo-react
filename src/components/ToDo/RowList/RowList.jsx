@@ -4,7 +4,7 @@ import BgText from '../BgText/BgText'
 function RowList({numberTask, bgText ,backGround}) {
   return (
     
-    <div className="flex justify-between ml-2 w-[50%]">
+    <div className="flex justify-between ml-2 ">
 <div className="flex gap-2 items-center">
 <input type="checkbox" className="w-5 h-5" /> 
 <p className="text-xl font-medium ">{numberTask}</p>
