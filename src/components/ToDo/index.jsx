@@ -4,7 +4,9 @@ import RowList from "./RowList/RowList";
 
 function ToDo() {
   return (
-    <div className="flex flex-col gap-3 rotate-[12deg]  h-[500px] w-[500px] px-10 rounded-3xl m-auto bg-white justify-center">
+<div className="h-screen flex">
+<div className="h-[500px] w-[500px] m-auto bg-gradient-to-r from-blue-400 via-blue-500 to-blue-700 rounded-3xl rotate-[-12deg] ">
+     <div className="flex flex-col gap-3 rotate-[12deg]  h-[500px] w-[500px] px-10 rounded-3xl m-auto bg-white justify-center">
       <p className="font-bold text-2xl mb-2">ToDo List</p>
       <RowList
         numberTask={"Task1"}
@@ -46,6 +48,8 @@ function ToDo() {
         />
       </div>
     </div>
+   </div>
+</div>
   );
 }
 
